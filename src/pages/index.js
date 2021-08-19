@@ -14,7 +14,6 @@ const Home = ({ data }) => {
             View Portfolio
           </Link>
         </div>
-        {/* <img src="/web.jpg" alt="" style={{ maxWidth: "100%" }} /> */}
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
     </Layout>
