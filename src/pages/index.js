@@ -16,6 +16,7 @@ const Home = ({ data }) => {
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
+      <section></section>
     </Layout>
   )
 }
